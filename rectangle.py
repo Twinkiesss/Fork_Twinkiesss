@@ -1,5 +1,12 @@
-def area(a, b): 
-    return a * b 
+import math
 
-def perimeter(a, b): 
-    return a + b + a + b
+
+def area(r):
+    '''Принимает число r, возвращает площадь круга с радиусом r'''
+    return math.pi * r * r
+
+
+def perimeter(r):
+    '''Принимает число r, возвращает периметр круга'''
+    return 2 * math.pi * r
+
