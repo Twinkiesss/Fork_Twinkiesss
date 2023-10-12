@@ -1,9 +1,9 @@
 def area(a, b):
-    '''Принимает числа a, b, возвращает их произведение'''
+    '''Принимает числа a, b, возвращает их произведение. Example: first side = 1, second side = 2 => S = 2'''
     return a * b 
 
 def perimeter(a, b):
-    '''Принимает числа a, b, возвращает их удвоенную сумму'''
+    '''Принимает числа a, b, возвращает их удвоенную сумму. Example: first side = 1, second side = 2 => P = 6'''
     return a + b + a + b
 
 
