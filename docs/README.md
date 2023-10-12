@@ -1,5 +1,5 @@
 # **Math formulas**
-## **Area and perimeter of figures**
+## **Area and perimeter of figures. Вычисление площади и периметра фигур через принимаемые значения**
 - *Circle* 
 
 S = pi * r * r (Принимает число r, возвращает площадь круга с радиусом r)
