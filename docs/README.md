@@ -1,6 +1,6 @@
 # **Math formulas**
 ## **Area and perimeter of figures. Вычисление площади и периметра фигур через принимаемые значения**
-- *Circle* 
+- [*Circle*](https://github.com/Twinkiesss/Fork_Twinkiesss/blob/main/circle.py) 
 
 S = pi * r * r (Принимает число r, возвращает площадь круга с радиусом r)
 
@@ -10,7 +10,7 @@ P = 2 * pi * r (Принимает число r, возвращает перим
 
 >Example: r = 2 => P = pi * 4 ~ 12,56
 
-- *Rectangle*
+- [*Rectangle*](https://github.com/Twinkiesss/Fork_Twinkiesss/blob/main/rectangle.py)
   
 S = a * b (Принимает числа a, b, возвращает их произведение)
 
@@ -20,7 +20,7 @@ P = a + b + a + b (Принимает числа a, b, возвращает их
 
 >Example: first side = 1, second side = 2 => P = 6
 
-- *Triangle*
+- [*Triangle*](https://github.com/Twinkiesss/Fork_Twinkiesss/blob/main/triangle.py)
 
 S = a * h / 2 (Принимает значение a, h, возвращает площадь треугольника со стороной а и проведенной к ней высотой h)
 
@@ -30,7 +30,7 @@ P = a + b + c (Принимает значения a, b, c, возвращает
 
 >Example: a = 4, b = 2, c = 3 => P = 9
 
-- *Square*
+- [*Square*](https://github.com/Twinkiesss/Fork_Twinkiesss/blob/main/square.py)
 
 S = a * a (Принимает значение a, возвращает его квадрат)
 
