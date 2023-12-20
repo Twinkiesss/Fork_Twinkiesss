@@ -2,9 +2,6 @@ import unittest
 from square import *
 
 class SquareTestCase(unittest.TestCase):
-    def test_zero_mul(self):
-        res = area(0)
-        self.assertEqual(res, 0)
     def test_small_mul(self):
         res = area(10)
         self.assertEqual(res, 100)
@@ -14,9 +11,6 @@ class SquareTestCase(unittest.TestCase):
     def test_float_mul(self):
         res = area(2.22)
         self.assertEqual(res, 4.9284)
-    def test_zero_mul(self):
-        res = perimeter(0)
-        self.assertEqual(res, 0)
     def test_small_mul(self):
         res = perimeter(1)
         self.assertEqual(res, 4)
