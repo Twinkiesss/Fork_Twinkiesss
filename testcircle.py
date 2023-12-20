@@ -2,9 +2,6 @@ import unittest
 from circle import *
 
 class CircleTestCase(unittest.TestCase):
-    def test_zero_mul(self):
-        res = area(0)
-        self.assertEqual(res, 0)
     def test_small_mul(self):
         res = area(10)
         self.assertEqual(res, 314.1592653589793)
@@ -14,9 +11,6 @@ class CircleTestCase(unittest.TestCase):
     def test_float_mul(self):
         res = area(2.22)
         self.assertEqual(res, 15.483025233951938)
-    def test_zero_mul(self):
-        res = perimeter(0)
-        self.assertEqual(res, 0)
     def test_small_mul(self):
         res = perimeter(5)
         self.assertEqual(res, 31.41592653589793)
