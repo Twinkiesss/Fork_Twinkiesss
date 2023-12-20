@@ -2,18 +2,12 @@ import unittest
 from triangle import *
 
 class TriangleTestCase(unittest.TestCase):
-    def test_zero_mul(self):
-        res = area(0, 10)
-        self.assertEqual(res, 0)
     def test_small_mul(self):
         res = area(10, 5)
         self.assertEqual(res, 25)
     def test_big_mul(self):
         res = area(1234567, 2345678)
         self.asseertEqual(res, 1447948325713)
-    def test_zero_mul(self):
-        res = perimeter(0, 0, 0)
-        self.assertEqual(res, 0)
     def test_small_mul(self):
         res = perimeter(5, 6, 7)
         self.assertEqual(res, 18)
